@@ -113,16 +113,17 @@
         <h2>Become a Partner</h2>
 
         <form>
+            <form id="partnerForm">
 
-            <input type="text" placeholder="Organization Name" required>
+            <input id="organization" type="text" placeholder="Organization Name" required>
 
-            <input type="text" placeholder="Contact Person" required>
+            <input id="contactPerson" type="text" placeholder="Contact Person" required>
 
-            <input type="email" placeholder="Official Email" required>
+            <input id="email" type="email" placeholder="Official Email" required>
 
-            <input type="tel" placeholder="Phone Number" required>
+            <input id="phone" type="tel" placeholder="Phone Number" required>
 
-            <select required>
+            <select id="partnershipType" required>
 
                 <option>Select Partnership Type</option>
 
@@ -138,7 +139,7 @@
 
             </select>
 
-            <textarea rows="5" placeholder="Tell us about your organization..."></textarea>
+            <textarea id="message" rows="5" placeholder="Tell us about your organization..."></textarea>
 
             <button type="submit">Submit Partnership Request</button>
 
