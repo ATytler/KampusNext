@@ -16,11 +16,11 @@ document
 
         phone:document.getElementById("telephone").value,
 	
-	designation:document.getElementById("designation").value,
+		designation:document.getElementById("designation").value,
 	
-	date:document.getElementById("date").value,
+		date:document.getElementById("date").value,
 	
-	preferredtime:document.getElementById("preferredtime").value,
+		preferredtime:document.getElementById("preferredtime").value,
 
         message:document.getElementById("message").value
 
