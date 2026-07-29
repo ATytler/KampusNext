@@ -10,11 +10,11 @@ document
 
         organization:document.getElementById("organization").value,
 
-        contactPerson:document.getElementById("contactperson").value,
+        contactperson:document.getElementById("contactperson").value,
 
         email:document.getElementById("email").value,
 
-        phone:document.getElementById("telephone").value,
+        phone:document.getElementById("phone").value,
 	
 		designation:document.getElementById("designation").value,
 	
