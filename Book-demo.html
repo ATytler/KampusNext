@@ -93,30 +93,22 @@
 
                 <h2>Request Your Demo</h2>
 
-                <form>
+                <form id="bookdemoform">
 
-                    <input type="text"
-                           placeholder="College / Organization Name"
-                           required>
+                    <input id="organization" type="text" placeholder="College / Organization Name" required>       
 
-                    <input type="text"
-                           placeholder="Contact Person"
-                           required>
+                    <input id="contactperson" type="text" placeholder="Contact Person" required>
+                    
+                    <input id="email" type="email" placeholder="Official Email" required>
+                          
 
-                    <input type="email"
-                           placeholder="Official Email"
-                           required>
+                    <input id="telephone" type="tel" placeholder="Mobile Number" required>
+                    
+                    <input id="designation" type="text" placeholder="Designation">
 
-                    <input type="tel"
-                           placeholder="Mobile Number"
-                           required>
+                    <input id="date" type="date">
 
-                    <input type="text"
-                           placeholder="Designation">
-
-                    <input type="date">
-
-                    <select>
+                    <select id="time">
 
                         <option>Select Preferred Time</option>
 
@@ -129,7 +121,7 @@
 
                     </select>
 
-                    <textarea
+                    <textarea id="message"                        
                         rows="5"
                         placeholder="Tell us about your requirements..."></textarea>
 
@@ -154,6 +146,9 @@
         © 2026 KampusNxt | Career Readiness Platform
 
     </footer>
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/bookdemo.js"></script>
 
 </body>
 
