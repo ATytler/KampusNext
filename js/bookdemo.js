@@ -14,7 +14,7 @@ document
 
         email:document.getElementById("email").value,
 
-        phone:document.getElementById("phone").value,
+        phone: document.getElementById("phone").value,
 	
 		designation:document.getElementById("designation").value,
 	
