@@ -40,10 +40,9 @@ document
 
     }
 
-    catch{
-
-        alert("Something went wrong.");
-
-    }
+	catch (error) {
+    	console.error(error);
+    	alert(error.message);
+}
 
 });
