@@ -1,5 +1,3 @@
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxr_0spFdD9MkJyvp9pzeMOlbRLcVoXwuaCsetyheV4pVcjrTbUTsR0p_CxxKEDSiYk/exec";
-
 document
 .getElementById("subscribeForm")
 .addEventListener("submit", async function(e){
